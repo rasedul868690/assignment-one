@@ -5,21 +5,24 @@
     justify-content: space-between;
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 300px
+    
 }
-.header p{
+.btn-primary p{
     color:#252432;
     font-family: Raleway;
     font-size: 65px;
     font-weight: bold;
     margin-top: 158px;
-    width: 60%;
+    width: 65%;
+    text-align: center;
+    margin-left: 250px;
 }
 .header h1{
     color:#4E47FF ;
     font-weight: bold;
     margin-top: 50px;
+    
 }
 .my-header{
     display: flex;
@@ -44,8 +47,68 @@
     padding: 10px;
     border-radius: 10px;
 }
+/* main my-action*/
 
+.my-action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:115px 200px;
+}
+.action{
+    max-width: 1140px;
+    margin-left: 250px;
+}
+.action h3{
+    font-size: 35px;
+    color: #252432;
+    font-weight: bold;
+}
+.action p{
+    color: #252432;
+    width: 300px;
+}
+.action button{
+    background-color: #4E47FF;
+    color:#fff ;
+    width: 170px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.img{
+    width: 400px;
+    border-radius: 30px;
+    margin-right: 10px;
+}
 
+/**   **/
+.main-sec{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 115px 300px;
+}
+.section-rd{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.action-user h1{
+    color: #4E47FF;
+    margin-right: 250px;
+    font-size: 50px;
+}
+.main-sec h2{
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.action-user p{
+    margin-top: -30px;
+    color: #252432;
+    border: ;
+}
 
 
 
