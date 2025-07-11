@@ -53,7 +53,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin:115px 200px;
+    margin: 110px 160px 110px 140px;
 }
 .action{
     max-width: 1140px;
@@ -77,38 +77,107 @@
     border-radius: 10px;
 }
 .img{
-    width: 400px;
-    border-radius: 30px;
-    margin-right: 10px;
+    max-width: 400px;
+    border-radius: 25px;
 }
 
 /**   **/
+.section-rd{
+    background-color: #E0EBDF;
+    margin: 110px 160px 110px 400px;
+    border-radius: 20px;
+ }
+.cls-title{
+    color: #252432;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+}
 .main-sec{
     display: flex;
     text-align: center;
     justify-content: space-between;
-    margin: 115px 300px;
 }
-.section-rd{
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
+.action-user{
+    padding: 0px 20px 50px 200px;
 }
 .action-user h1{
     color: #4E47FF;
-    margin-right: 250px;
-    font-size: 50px;
-}
-.main-sec h2{
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 100px;
+    font-size: 50px; 
 }
 .action-user p{
-    margin-top: -30px;
-    color: #252432;
-    border: ;
+    margin-top: -35px;
+    color: #93A0A3;
 }
 
+/**  */
+.my-continear{
+    text-align: center;
+    margin: 110px 160px 110px 400px;
+    border-radius: 20px;
+}
+.three-continer h5{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.added{
+    margin-left: 10px;
+    color: #000;
+}
+.img-added{
+    display: flex;
+    justify-content: space-between;
+    width: 200px; 
+}
+.added p{
+    color: gray;
+    
+}
+.img-added img{
+    border-radius: 50%;
+}
+.three-continer p{
+    margin: 0px 20px;
+}
+.header-second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px ;
+    font-size: 20px;
+}
+.three-continer{
+   background-color: #CAF9DC; 
+}
+.amrgin{
+    margin-right: 15px;
+    padding: 15px;
+}
+.my-continear h1{
+    font-size: 40px;
+}
+/*****/
 
+.ready-focus{
+    margin: 110px 160px 110px 400px;
+    border-radius: 20px;
+    background-color: #CAF9DC; 
+    text-align: center;
+}
+.ready-focus img{
+    border-radius: 35px;
+}
+.ready-focus button{
+    background-color: #4E47FF;
+    color:#fff ;
+    width: 170px;
+    height: 48px;
+   margin-bottom: 20px;
+    border-radius: 10px;
 
+}
+.ready-focus h1{
+    padding-top: 50px;
+}
+.ready-focus p{
+    color: #8DA8A2
+}
