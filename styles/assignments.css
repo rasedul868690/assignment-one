@@ -1,3 +1,51 @@
-p{
-    color:red;
+.header{
+    background-image:url(../images/Hero-bg.png);
+    width: 1440px;
+    height: 700px;
+    justify-content: space-between;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+.header p{
+    color:#252432;
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: bold;
+    margin-top: 158px;
+    width: 60%;
+}
+.header h1{
+    color:#4E47FF ;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.my-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 200px;
+}
+.my-header button{
+    background-color: #4E47FF;
+    color:#fff ;
+    width: 132px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.my-button{
+    background-color: #4E47FF;
+    color:#fff ;
+    width: 170px;
+    height: 48px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
