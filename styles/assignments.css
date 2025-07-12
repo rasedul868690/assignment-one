@@ -5,8 +5,7 @@
     justify-content: space-between;
     text-align: center;
     display: block;
-    margin: 0 300px
-    
+    margin: 0 300px;
 }
 .btn-primary p{
     color:#252432;
@@ -181,3 +180,84 @@
 .ready-focus p{
     color: #8DA8A2
 }
+
+/***/
+.from-title{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px 170px 50px 400px;
+    background-color: #D6DDED;
+    padding: 50px 0 50px 0;
+}
+.from-section{
+    margin-left: 200px;
+}
+.from-section button{
+    background-color: #4E47FF;
+    border-radius: 15px;
+    width: 350px;
+    height: 50px;
+    color: #fff;
+    
+}
+.from-section input{
+    width: 350px;
+    height: 35px;
+    color: #000;
+    border-radius: 10px;
+}
+.from-section textarea{
+    width: 350px;
+    height: 110px;
+    color: #000;
+    border-radius: 10px;
+}
+.left{
+    margin-right: 310px;
+    color: #000000;
+    font-weight: bold;
+}
+.from-title h1{
+    font-size: 75px;
+    margin-left: -150;
+}
+
+
+/** */
+.footer-continer{
+    
+    justify-content: space-between;
+    margin: 0px 360px 0px 680px;
+}
+.footer-continer h1{
+    margin-left: 150px;
+    color: #4E47FF;
+    font-size: 40px;
+    font-weight: 1000;
+}
+.footer-continer p{
+    color: #7A897B;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+nav li a{
+    text-decoration: none;
+    color: #7A897B;
+}
+nav 
+
+
+
+
+
+
+
+
+
