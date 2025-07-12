@@ -46,8 +46,18 @@
     padding: 10px;
     border-radius: 10px;
 }
+.my-button:hover{
+    background-color: #B6DA71;
+    color: blue;
+    position: relative;
+    animation: mymove 2s infinite;
+}
+.my-header button:hover{
+    background-color: #B6DA71;
+    color: blue;
+}
+ 
 /* main my-action*/
-
 .my-action{
     display: flex;
     align-items: center;
@@ -74,6 +84,10 @@
     height: 48px;
     padding: 10px;
     border-radius: 10px;
+}
+.action button:hover{
+    background-color: #B6DA71;
+    color: blue;
 }
 .img{
     max-width: 400px;
@@ -172,8 +186,12 @@
     height: 48px;
    margin-bottom: 20px;
     border-radius: 10px;
-
 }
+.ready-focus button:hover{
+    background-color: #B6DA71;
+    color: blue;
+}
+
 .ready-focus h1{
     padding-top: 50px;
 }
@@ -198,8 +216,11 @@
     border-radius: 15px;
     width: 350px;
     height: 50px;
-    color: #fff;
-    
+    color: #fff; 
+}
+.from-section button:hover{
+    background-color: #B6DA71;
+    color: blue;
 }
 .from-section input{
     width: 350px;
